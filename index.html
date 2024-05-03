@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top-row">
+        <div></div>
+        <div></div>
+        <div class="weather-container">
+          <div class="weather"></div>
+          <div class="location"></div>
+        </div>
+      </div>
+      <div class="second-row"></div>
+      <div class="clock-greeting-row">
+        <div class="clock-container">
+          <h1 class="clock hidden"></h1>
+        </div>
+        <div class="login-form-container">
+          <h1>MOMENTUM CLONE</h1>
+          <form class="login-form">
+            <label for="login-input">What's your name?</label>
+            <input type="text" id="login-input" required minlength="2" />
+          </form>
+        </div>
+        <div class="greetings">
+          <h2 class="greetings__message hidden"></h2>
+        </div>
+      </div>
+      <div class="todo-row">
+        <form class="todo-form">
+          <label for="todo-input">Today's Goals</label>
+          <input type="text" id="todo-input" />
+        </form>
+        <ul class="todo-list"></ul>
+      </div>
+      <div class="bottom-row"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
